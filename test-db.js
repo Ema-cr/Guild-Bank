@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 const dns = require('dns');
 
-const uri = "mongodb+srv://ema_user:realg4life@clusterprueba1.jupkf72.mongodb.net/guildbank?retryWrites=true&w=majority&appName=ClusterPrueba1";
+const uri = "";
 dns.setServers(['8.8.8.8']);
 
 async function testConnection() {
